@@ -10,13 +10,15 @@ $(function () {
         dots: true,
     });
 
-    $('.services__item-title').on('click', function(){
+    $('.services__item-title').on('click', function () {
         $('.services__item').removeClass('services__item--active');
         $(this).parent().addClass('services__item--active');
     });
 
     $('.services__comment-slider').slick({
     });
+
+
 
 
 });
