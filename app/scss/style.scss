@@ -1015,6 +1015,7 @@
 
 .footer__social-box {
     display: flex;
+    margin-bottom: 40px;
     .social-link__text {
         @include rf300;
         font-size: 15px;
@@ -1024,7 +1025,6 @@
 }
 
 .footer__social-link {
-    margin-bottom: 40px;
     li {
         display: inline-block;
     }
