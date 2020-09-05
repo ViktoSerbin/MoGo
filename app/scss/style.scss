@@ -1016,7 +1016,7 @@
 .footer__social-link {
     display: flex;
     margin-bottom: 40px;
-    p {
+    .social-link__text {
         @include rf300;
         font-size: 15px;
         color: #999;
