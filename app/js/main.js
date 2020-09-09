@@ -18,7 +18,13 @@ $(function () {
     $('.services__comment-slider').slick({
     });
 
+    $('.menu__btn').on('click', function () {
+        $('.menu__list').slideToggle();
+    });
 
+    $('.menu__btn').on('click', function(){
+        $(this).toggleClass('menu__btn-active');
+    });
 
 
 });
